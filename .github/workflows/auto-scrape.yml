@@ -3,7 +3,7 @@ name: Robot Code A-Z - Synchro Automatique
 on:
   schedule:
     # S'exécute automatiquement toutes les 20 minutes (Format Cron)
-    - cron: '*/20 * * * *'
+    - cron: '*/25 * * * *'
   workflow_dispatch: # Te permet de forcer le lancement en 1 clic depuis l'interface GitHub si besoin
 
 jobs:
