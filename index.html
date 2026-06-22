@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code A-Z | Live Streaming</title>
+    <link rel="stylesheet" href="asset/fontawesome-free-7.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="asset/img/logo.png" alt="Code A-Z Foot Live Logo">
+        </div>
+        <h1>Code <span>A-Z</span></h1>
+        <div class="search-wrapper">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="searchInput" oninput="filtrerEtAfficher()" placeholder="Rechercher un match, une équipe, une compétition...">
+        </div>
+    </header>
+
+    <div id="filter-container"></div>
+
+    <div id="match-list">
+        <p style="text-align: center; color: #666; font-size: 18px;">Chargement des matchs en direct...</p>
+    </div>
+
+    <div id="modal">
+        <button id="close-btn" onclick="fermerMatch()" title="Fermer la vidéo">&times;</button>
+        <iframe id="video-frame" src="" allowfullscreen></iframe>
+    </div>
+
+    <button id="scrollToTopBtn" title="Retour en haut"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script>
+        // Variables d'état globales
+        let tousLesMatchs = [];
+        let sportSelectionne = "Tous";
+        const iconesSports = {
+            "Football": "fas fa-futbol",
+            "Tennis": "fas fa-table-tennis-paddle-ball",
+            "Basketball": "fas fa-basketball-ball",
+            "Auto/Moto": "fas fa-motorcycle" // Aligné exactement sur ton JSON
+        };
+
+        async function chargerEtAfficherMatchs() {
+            try {
+                console.log("🔄 Code A-Z : Récupération du fichier de synchronisation...");
+                const response = await fetch('matchs.json');
+                
+                if (!response.ok) {
+                    throw new Error(`Fichier matchs.json introuvable (Code : ${response.status})`);
+                }
+                
+                tousLesMatchs = await response.json();
+                console.log("📊 Données chargées avec succès :", tousLesMatchs);
+
+                // 1. On génère d'abord les boutons de filtres basés sur les sports existants
+                genererBoutonsFiltres();
+                
+                // 2. On lance le premier affichage complet
+                filtrerEtAfficher();
+
+            } catch (erreur) {
+                console.error("❌ Erreur d'affichage :", erreur.message);
+                const ecran = document.getElementById('match-list') || document.body;
+                ecran.innerHTML = `
+                    <div style="color: #e50914; text-align: center; padding: 40px;">
+                        <p style="font-size: 18px; font-weight: bold;"><i class="fas fa-exclamation-triangle"></i> Erreur d'affichage de l'interface</p>
+                        <p style="color: #888; font-size: 14px;">Détail : ${erreur.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // 🟢 CRÉATION DYNAMIQUE DES BOUTONS DE FILTRES (VERSION CORRIGÉE)
+        function genererBoutonsFiltres() {
+            const conteneurFiltres = document.getElementById('filter-container');
+            if (!conteneurFiltres) return;
+
+            // Extraire la liste unique des sports présents dans le JSON
+            const sportsUniques = new Set();
+            tousLesMatchs.forEach(match => {
+                if (match.sport) sportsUniques.add(match.sport.trim());
+            });
+
+            // Bouton universel "Tous"
+            let boutonsHtml = `<button class="filter-btn active" onclick="changerFiltreSport('Tous', this)"><i class="fas fa-globe"></i> Tous</button>`;
+
+            // Ajouter un bouton pour chaque sport trouvé
+            sportsUniques.forEach(sport => {
+                // 🔥 FIX : Recherche partielle robuste avec .includes() pour ignorer l'émoji devant le texte
+                const cleTrouvee = Object.keys(iconesSports).find(key => sport.toLowerCase().includes(key.toLowerCase()));
+                
+                const classeIcone = cleTrouvee ? iconesSports[cleTrouvee] : 'fas fa-trophy';
+                
+                // Si l'icône premium est trouvée, on affiche le texte épuré (ex: "Football") au lieu de "⚽ Football"
+                // Cela évite d'avoir l'icône Font Awesome ET l'émoji côte à côte sur le bouton
+                const texteAffichage = cleTrouvee ? cleTrouvee : sport;
+
+                boutonsHtml += `
+                    <button class="filter-btn" onclick="changerFiltreSport('${sport}', this)">
+                        <i class="${classeIcone}"></i> ${texteAffichage}
+                    </button>
+                `;
+            });
+
+            conteneurFiltres.innerHTML = boutonsHtml;
+        }
+
+        // Action lors du clic sur un bouton sport
+        function changerFiltreSport(sport, boutonClique) {
+            sportSelectionne = sport;
+
+            // Nettoyer la classe 'active' sur tous les boutons et l'ajouter sur le nouveau
+            const boutons = document.querySelectorAll('.filter-btn');
+            boutons.forEach(btn => btn.classList.remove('active'));
+            boutonClique.classList.add('active');
+
+            // Ré-exécuter le filtrage croisé (Sport + Recherche texte)
+            filtrerEtAfficher();
+        }
+
+        // 🔍 MOTEUR DE RECHERCHE CROISÉ ET AFFICHAGE CATEGORISÉ
+        function filtrerEtAfficher() {
+            const listeConteneur = document.getElementById('match-list');
+            if (!listeConteneur) return;
+
+            const saisieRecherche = document.getElementById('searchInput').value.toLowerCase();
+
+            // Étape 1 : Filtrer les matchs selon le sport ET la recherche texte
+            const matchsFiltres = tousLesMatchs.filter(match => {
+                const correspondAuSport = (sportSelectionne === "Tous" || match.sport === sportSelectionne);
+                
+                const titre = (match.titre || "").toLowerCase();
+                const compet = (match.compet || "").toLowerCase();
+                const sportText = (match.sport || "").toLowerCase();
+                const correspondALaRecherche = titre.includes(saisieRecherche) || compet.includes(saisieRecherche) || sportText.includes(saisieRecherche);
+
+                return correspondAuSport && correspondALaRecherche;
+            });
+
+            // Si aucun résultat après filtrage
+            if (matchsFiltres.length === 0) {
+                listeConteneur.innerHTML = "<p style='color: gray; text-align: center; padding: 40px;'>Aucun direct ne correspond à ces critères.</p>";
+                return;
+            }
+
+            // Étape 2 : Grouper les matchs filtrés par Sport pour l'affichage en tiroirs
+            const groupes = {};
+            matchsFiltres.forEach(match => {
+                const sport = match.sport || "⚽ Football";
+                if (!groupes[sport]) groupes[sport] = [];
+                groupes[sport].push(match);
+            });
+
+            // Étape 3 : Générer le code HTML
+            let htmlFinal = "";
+            for (const [sport, listeDeMatchs] of Object.entries(groupes)) {
+                htmlFinal += `
+                    <div class="sport-category-section" style="margin-bottom: 30px;">
+                        <h2 style="color: #ffffff; font-size: 17px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                            <span style="width: 4px; height: 16px; background: var(--accent); display: inline-block; border-radius: 2px;"></span>
+                            ${sport}
+                        </h2>
+                        <div class="cards-wrapper">
+                            ${listeDeMatchs.map(match => {
+                                const heure = match.heure || "LIVE";
+                                const compet = match.compet || "Match International";
+                                const titre = match.titre || "Affiche en cours";
+                                const url = match.urlPageMatch || "#";
+
+                                const badgeTemps = heure === "LIVE" 
+                                    ? `<span class="live-badge"><span class="pulse-dot"></span>LIVE</span>`
+                                    : `<span class="time-badge"><i class="fas fa-clock"></i>${heure}</span>`;
+
+                                return `
+                                    <div class="match-card" onclick="ouvrirMatch('${url}')">
+                                        <div class="match-meta">
+                                            <span class="compet-tag">${compet}</span>
+                                        </div>
+                                        <div class="match-main">
+                                            ${badgeTemps}
+                                            <span class="match-teams">${titre}</span>
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            listeConteneur.innerHTML = htmlFinal;
+        }
+
+        // 🎬 ACTIONS DU LECTEUR INTEGRÉ
+        function ouvrirMatch(url) {
+            const modal = document.getElementById('modal');
+            const iframe = document.getElementById('video-frame');
+            
+            if (iframe && modal) {
+                iframe.src = url;
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function fermerMatch() {
+            const modal = document.getElementById('modal');
+            const iframe = document.getElementById('video-frame');
+            
+            if (iframe && modal) {
+                iframe.src = "";
+                modal.classList.remove('remove');
+                modal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        }
+
+        // Démarrage automatique
+        document.addEventListener('DOMContentLoaded', chargerEtAfficherMatchs);
+
+        // Gestion du bouton de remontée (Scroll to top)
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+                scrollToTopBtn.classList.add("show");
+            } else {
+                scrollToTopBtn.classList.remove("show");
+            }
+        };
+
+        scrollToTopBtn.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+</body>
+</html>

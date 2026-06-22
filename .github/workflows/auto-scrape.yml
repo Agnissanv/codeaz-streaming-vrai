@@ -1,0 +1,35 @@
+name: Robot Code A-Z - Synchro Automatique
+
+on:
+  schedule:
+    # S'exécute automatiquement toutes les 20 minutes (Format Cron)
+    - cron: '*/20 * * * *'
+  workflow_dispatch: # Te permet de forcer le lancement en 1 clic depuis l'interface GitHub si besoin
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. Récupération du code source
+        uses: actions/checkout@v4
+
+      - name: 2. Installation de l'environnement Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 3. Installation des dépendances (Puppeteer, etc.)
+        run: npm ci
+
+      - name: 4. Lancement du robot intelligent
+        run: node scraper.js
+
+      - name: 5. Sauvegarde et Push du fichier matchs.json mis à jour
+        run: |
+          git config --global user.name "Code A-Z Automation"
+          git config --global user.email "bot@codeaz.com"
+          git add matchs.json
+          git commit -m "🔄 [Bot] Actualisation automatique des matchs en direct" || exit 0
+          git push
