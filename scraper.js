@@ -9,10 +9,12 @@ async function recupererMatchs() {
     
     const browser = await puppeteer.launch({ 
       headless: "new",
+      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || null, // Utile pour GitHub Actions
       args: [
         '--disable-blink-features=AutomationControlled',
         '--no-sandbox',
-        '--disable-setuid-sandbox'
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage'
       ]
     });
     const page = await browser.newPage();
