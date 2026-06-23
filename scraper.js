@@ -39,7 +39,7 @@ async function recupererMatchs() {
     const matchs = [];
 
     // On cible exactement tes liens comme avant
-    const liensMatchs = $('a[href*="-match-"], a[href*="/live/"], a[href*="/stream/"]');
+    const liensMatchs = $('a[href*="-match-"], a[href*="/live/"], a[href*="/stream/"], a[href*="/fr/"]');
     console.log(`📝 [LOG DEBOGAGE] Nombre total de liens <a> sur la page : ${$('a').length}`);
 
     liensMatchs.each((i, el) => {
