@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --global user.name "Code A-Z Automation"
           git config --global user.email "bot@codeaz.com"
-          git add matchs.json
+          git add .
           git commit -m "🔄 [Bot] Actualisation automatique des matchs" || exit 0
           git pull --rebase origin main 
           git push
