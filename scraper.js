@@ -5,7 +5,7 @@ const TARGET_URL = 'https://www.fctv33hd.mom/fr';
 
 async function recupererMatchs() {
   try {
-    console.log('🤖 Lancement du robot intelligent Code A-Z...');
+    console.log('🤖 Lancement du robot Code A-Z en mode détective...');
     
     const browser = await puppeteer.launch({ 
       headless: "new",
@@ -14,31 +14,32 @@ async function recupererMatchs() {
         '--disable-blink-features=AutomationControlled',
         '--no-sandbox',
         '--disable-setuid-sandbox',
-        '--disable-dev-shm-usage',
-        '--window-size=1280,800' // 👈 Fait croire à un vrai écran d'ordinateur
+        '--disable-dev-shm-usage'
       ]
     });
     const page = await browser.newPage();
     
-    // 👈 Force la taille de l'écran et l'identité du navigateur
-    await page.setViewport({ width: 1280, height: 800 });
+    // Identité humaine
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36');
 
-    console.log('🌐 Visite du site...');
-    // 👈 Augmente le temps d'attente à 60 secondes pour éviter les chargements infinis
-    await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 60000 }); 
+    console.log('🌐 Connexion au site de streaming...');
+    // On utilise 'domcontentloaded' qui est plus stable sur les serveurs distants
+    await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 60000 }); 
 
-    console.log('📸 Prise d\'une capture d\'écran pour le débogage...');
-    // 👈 Le robot prend une photo ! On pourra la voir sur GitHub.
-    await page.screenshot({ path: 'vision_du_robot.png' });
+    // 👀 ESPIONNAGE DU SERVEUR : On regarde ce que GitHub voit vraiment
+    const titrePage = await page.title();
+    console.log(`📝 [LOG DEBOGAGE] Titre de la page vue par GitHub : "${titrePage}"`);
 
-    console.log('⏳ Analyse et extraction des blocs de sports...');
-    // 👈 Laisse 10 secondes au site pour faire apparaître les matchs
-    await new Promise(resolve => setTimeout(resolve, 10000));
+    console.log('⏳ Pause de 8 secondes pour laisser les scripts charger les matchs...');
+    await new Promise(resolve => setTimeout(resolve, 8000));
 
-    const listeDesMatchs = await page.evaluate(() => {
+    // Extraction
+    const donnees = await page.evaluate(() => {
       const matchs = [];
       const liensMatchs = document.querySelectorAll('a[href*="-match-"], a[href*="/live/"], a[href*="/stream/"]');
+
+      // Compteur interne pour le débug
+      const totalLiensDeLaPage = document.querySelectorAll('a').length;
 
       liensMatchs.forEach(lien => {
         const urlPageMatch = lien.href;
@@ -47,15 +48,12 @@ async function recupererMatchs() {
         if (texteComplet && urlPageMatch) {
           const matchHeure = texteComplet.match(/\d{2}:\d{2}/);
           let heure = matchHeure ? matchHeure[0] : "LIVE";
-
           let titreEquipes = texteComplet.replace(heure, '').trim();
 
           let compet = "Match International"; 
-          
           let parentRecherche = lien.parentElement;
           for (let i = 0; i < 4; i++) {
             if (!parentRecherche) break;
-            
             let titreLigue = parentRecherche.querySelector('.league-title, .competition-name, h2, h3, th, .title, [class*="head"]');
             if (titreLigue && titreLigue.innerText.trim()) {
               compet = titreLigue.innerText.split('\n')[0].trim();
@@ -71,24 +69,26 @@ async function recupererMatchs() {
           else if (analyseTexte.includes('mma') || analyseTexte.includes('ufc')) sport = "🥊 Combat";
           else if (analyseTexte.includes('f1') || analyseTexte.includes('moto')) sport = "🏎️ Auto/Moto";
 
-          matchs.push({
-            heure: heure,
-            sport: sport,
-            compet: compet,
-            titre: titreEquipes,
-            urlPageMatch: urlPageMatch
-          });
+          matchs.push({ heure, sport, compet, titre: titreEquipes, urlPageMatch });
         }
       });
-      return matchs;
+
+      return {
+        matchs Trouves: matchs,
+        totalLiens: totalLiensDeLaPage
+      };
     });
 
+    console.log(`📊 [LOG DEBOGAGE] Nombre total de liens <a> sur la page : ${donnees.totalLiens}`);
+
     await browser.close();
-    fs.writeFileSync('matchs.json', JSON.stringify(listeDesMatchs, null, 2));
-    console.log(`\n✅ Réussite ! ${listeDesMatchs.length} matchs structurés en JSON.`);
+    
+    // Sauvegarde du fichier JSON
+    fs.writeFileSync('matchs.json', JSON.stringify(donnees.matchsTrouves, null, 2));
+    console.log(`\n✅ Opération terminée. ${donnees.matchsTrouves.length} matchs enregistrés.`);
 
   } catch (erreur) {
-    console.error('❌ Erreur :', erreur.message);
+    console.error('❌ Erreur critique durant le scraping :', erreur.message);
   }
 }
 
