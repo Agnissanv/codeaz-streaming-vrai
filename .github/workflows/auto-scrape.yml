@@ -34,5 +34,6 @@ jobs:
         run: |
           git config --global user.name "Robot Code A-Z"
           git config --global user.email "robot@codeaz.com"
+          # On force git à ne regarder ET ajouter QUE le fichier matchs.json
           git add matchs.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Synchro Auto : Mise à jour des matchs" && git push)
+          git diff --quiet --staged || (git commit -m "🤖 Synchro Auto : Mise à jour des matchs" && git push)
