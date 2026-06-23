@@ -9,22 +9,32 @@ async function recupererMatchs() {
     
     const browser = await puppeteer.launch({ 
       headless: "new",
-      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || null, // Utile pour GitHub Actions
+      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || null,
       args: [
         '--disable-blink-features=AutomationControlled',
         '--no-sandbox',
         '--disable-setuid-sandbox',
-        '--disable-dev-shm-usage'
+        '--disable-dev-shm-usage',
+        '--window-size=1280,800' // 👈 Fait croire à un vrai écran d'ordinateur
       ]
     });
     const page = await browser.newPage();
+    
+    // 👈 Force la taille de l'écran et l'identité du navigateur
+    await page.setViewport({ width: 1280, height: 800 });
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36');
 
     console.log('🌐 Visite du site...');
-    await page.goto(TARGET_URL, { waitUntil: 'networkidle2' }); 
+    // 👈 Augmente le temps d'attente à 60 secondes pour éviter les chargements infinis
+    await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 60000 }); 
+
+    console.log('📸 Prise d\'une capture d\'écran pour le débogage...');
+    // 👈 Le robot prend une photo ! On pourra la voir sur GitHub.
+    await page.screenshot({ path: 'vision_du_robot.png' });
 
     console.log('⏳ Analyse et extraction des blocs de sports...');
-    await new Promise(resolve => setTimeout(resolve, 6000));
+    // 👈 Laisse 10 secondes au site pour faire apparaître les matchs
+    await new Promise(resolve => setTimeout(resolve, 10000));
 
     const listeDesMatchs = await page.evaluate(() => {
       const matchs = [];
@@ -35,22 +45,17 @@ async function recupererMatchs() {
         let texteComplet = lien.innerText.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
 
         if (texteComplet && urlPageMatch) {
-          // 1. Extraction précise de l'Heure
           const matchHeure = texteComplet.match(/\d{2}:\d{2}/);
           let heure = matchHeure ? matchHeure[0] : "LIVE";
 
-          // 2. Nettoyage des Équipes
           let titreEquipes = texteComplet.replace(heure, '').trim();
 
-          // 3. STRATÉGIE DE CAPTURE DE LA COMPÉTITION
           let compet = "Match International"; 
           
-          // On remonte le long des parents pour trouver le bloc conteneur de la ligue
           let parentRecherche = lien.parentElement;
           for (let i = 0; i < 4; i++) {
             if (!parentRecherche) break;
             
-            // On cherche un en-tête ou un élément de titre dans ce conteneur
             let titreLigue = parentRecherche.querySelector('.league-title, .competition-name, h2, h3, th, .title, [class*="head"]');
             if (titreLigue && titreLigue.innerText.trim()) {
               compet = titreLigue.innerText.split('\n')[0].trim();
@@ -59,7 +64,6 @@ async function recupererMatchs() {
             parentRecherche = parentRecherche.parentElement;
           }
 
-          // 4. Attribution intelligente du Sport
           let sport = "⚽ Football";
           const analyseTexte = (compet + " " + urlPageMatch + " " + titreEquipes).toLowerCase();
           if (analyseTexte.includes('basket') || analyseTexte.includes('nba')) sport = "🏀 Basketball";
