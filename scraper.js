@@ -1,44 +1,47 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
+
+// 🕵️‍♂️ On active le camouflage ultra-secret avant le lancement
+puppeteer.use(StealthPlugin());
 
 const TARGET_URL = 'https://www.fctv33hd.mom/fr';
 
 async function recupererMatchs() {
   try {
-    console.log('🤖 Lancement du robot Code A-Z en mode détective...');
+    console.log('🤖 Lancement du robot Code A-Z en mode FURTIF...');
     
     const browser = await puppeteer.launch({ 
       headless: "new",
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || null,
       args: [
-        '--disable-blink-features=AutomationControlled',
         '--no-sandbox',
         '--disable-setuid-sandbox',
-        '--disable-dev-shm-usage'
+        '--disable-dev-shm-usage',
+        '--disable-web-security',
+        '--disable-features=IsolateOrigins,site-per-process'
       ]
     });
     const page = await browser.newPage();
     
-    // Identité humaine
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36');
+    // Forcer une taille d'écran standard humaine
+    await page.setViewport({ width: 1280, height: 720 });
 
-    console.log('🌐 Connexion au site de streaming...');
-    // On utilise 'domcontentloaded' qui est plus stable sur les serveurs distants
-    await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 60000 }); 
+    console.log('🌐 Tentative de connexion discrète au site...');
+    // 'networkidle2' attend qu'il n'y ait plus de requêtes réseau pour valider le chargement
+    await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 60000 }); 
 
-    // 👀 ESPIONNAGE DU SERVEUR : On regarde ce que GitHub voit vraiment
+    // 👀 ESPIONNAGE DU SERVEUR : Est-ce qu'on a passé la sécurité ?
     const titrePage = await page.title();
-    console.log(`📝 [LOG DEBOGAGE] Titre de la page vue par GitHub : "${titrePage}"`);
+    console.log(`📝 [LOG DEBOGAGE] Titre de la page vue par le robot furtif : "${titrePage}"`);
 
-    console.log('⏳ Pause de 8 secondes pour laisser les scripts charger les matchs...');
-    await new Promise(resolve => setTimeout(resolve, 8000));
+    console.log('⏳ Pause de 5 secondes pour stabiliser l\'affichage...');
+    await new Promise(resolve => setTimeout(resolve, 5000));
 
-    // Extraction
+    // Extraction des données
     const donnees = await page.evaluate(() => {
       const matchs = [];
       const liensMatchs = document.querySelectorAll('a[href*="-match-"], a[href*="/live/"], a[href*="/stream/"]');
-
-      // Compteur interne pour le débug
       const totalLiensDeLaPage = document.querySelectorAll('a').length;
 
       liensMatchs.forEach(lien => {
@@ -79,16 +82,16 @@ async function recupererMatchs() {
       };
     });
 
-    console.log(`📊 [LOG DEBOGAGE] Nombre total de liens <a> sur la page : ${donnees.totalLiens}`);
+    console.log(`📊 [LOG DEBOGAGE] Nombre total de liens <a> trouvés : ${donnees.totalLiens}`);
 
     await browser.close();
     
-    // Sauvegarde du fichier JSON
+    // Sauvegarde
     fs.writeFileSync('matchs.json', JSON.stringify(donnees.matchsTrouves, null, 2));
     console.log(`\n✅ Opération terminée. ${donnees.matchsTrouves.length} matchs enregistrés.`);
 
   } catch (erreur) {
-    console.error('❌ Erreur critique durant le scraping :', erreur.message);
+    console.error('❌ Erreur critique durant le scraping furtif :', erreur.message);
   }
 }
 
