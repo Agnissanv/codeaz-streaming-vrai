@@ -1,128 +1,352 @@
 [
   {
-    "heure": "LIVE",
+    "heure": "20:07",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Football",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/football.html"
+    "titre": "多伦多蓝鸟 VS 休斯敦太空人",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185313/toronto-blue-jays-vs-houston-astros-06-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "🏀 Basketball",
+    "heure": "21:00",
+    "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Basketball",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/basketball.html"
+    "titre": "Sorotan BWF Indonesia Masters 2026: Akhir",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/badminton/sorotan-bwf-indonesia-masters-2026-akhir-match-2185988/sorotan-bwf-indonesia-masters-2026-akhir-06-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "🎾 Tennis",
+    "heure": "22:40",
+    "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Tennis",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/tennis.html"
+    "titre": "底特律老虎 VS 纽约扬基",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185320/detroit-tigers-vs-new-york-yankees-06-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "22:40",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "迈阿密马林鱼 VS 德州游骑兵",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185321/miami-marlins-vs-texas-rangers-06-2026.html"
+  },
+  {
+    "heure": "22:40",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "匹兹堡海盗 VS 西雅图水手",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185322/pittsburgh-pirates-vs-seattle-mariners-06-2026.html"
+  },
+  {
+    "heure": "22:40",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "坦帕湾光芒 VS 堪萨斯市皇家",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185323/tampa-bay-rays-vs-kansas-city-royals-06-2026.html"
+  },
+  {
+    "heure": "22:45",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "华盛顿国民 VS 费城费城人",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185326/washington-nationals-vs-philadelphia-phillies-06-2026.html"
+  },
+  {
+    "heure": "23:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "巴拿马 VS 克罗地亚",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/football/fifa-world-cup-match-4320243/panama-vs-croatia-06-2026.html"
+  },
+  {
+    "heure": "23:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "米内罗美洲 VS 克里西乌马",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/football/brazilian-serie-b-match-4350958/america-mg-vs-criciuma-06-2026.html"
+  },
+  {
+    "heure": "23:10",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "辛辛那提红人 VS 密尔沃基酿酒人",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185332/cincinnati-reds-vs-milwaukee-brewers-06-2026.html"
+  },
+  {
+    "heure": "23:10",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "纽约大都会 VS 芝加哥小熊",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185333/new-york-mets-vs-chicago-cubs-06-2026.html"
+  },
+  {
+    "heure": "23:40",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "芝加哥白袜 VS 克利夫兰守护者",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185336/chicago-white-sox-vs-cleveland-guardians-06-2026.html"
+  },
+  {
+    "heure": "23:40",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "明尼苏达双城 VS 洛杉矶道奇",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185337/minnesota-twins-vs-los-angeles-dodgers-06-2026.html"
+  },
+  {
+    "heure": "23:45",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "圣路易红雀 VS 亚利桑那响尾蛇",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185338/stlouis-cardinals-vs-arizona-diamondbacks-06-2026.html"
+  },
+  {
+    "heure": "00:40",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  科罗拉多落基山 VS 波士顿红袜",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185343/colorado-rockies-vs-boston-red-sox-06-2026.html"
+  },
+  {
+    "heure": "00:45",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  denmark VS indonesia",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/badminton/uber-cup-match-2186412/denmark-vs-indonesia-06-2026.html"
+  },
+  {
+    "heure": "01:38",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  洛杉矶天使 VS 巴尔的摩金莺",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185351/los-angeles-angels-vs-baltimore-orioles-06-2026.html"
+  },
+  {
+    "heure": "01:40",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  圣迭戈教士 VS 亚特兰大勇士",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185352/san-diego-padres-vs-atlanta-braves-06-2026.html"
+  },
+  {
+    "heure": "01:45",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  旧金山巨人 VS 奥克兰运动家",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185354/san-francisco-giants-vs-oakland-athletics-06-2026.html"
+  },
+  {
+    "heure": "02:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  哥伦比亚 VS 刚果民主共和国",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/football/fifa-world-cup-match-4341130/colombia-vs-democratic-republic-of-the-congo-06-2026.html"
+  },
+  {
+    "heure": "04:15",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  taipei VS korea",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/badminton/uber-cup-match-2186413/taipei-vs-korea-06-2026.html"
+  },
+  {
+    "heure": "05:55",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  Indonesia VS Hong Kong",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/princess-cup-match-2186474/indonesia-vs--hong-kong-06-2026.html"
+  },
+  {
+    "heure": "08:00",
     "sport": "🏎️ Auto/Moto",
     "compet": "Match International",
-    "titre": "Sports Méca.",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/motorsport.html"
+    "titre": "24/06  Motor: Cub Prix 2026 Rnd 1",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/motorsport/motor-cub-prix-2026-rnd-1-match-2186411/motor-cub-prix-2026-rnd-1-06-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "09:00",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Autres",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/others.html"
+    "titre": "24/06  Ha Noi Women VS Ho Chi Minh City B Women",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/football/womens-national-league-match-4411991/ha-noi-women-vs-ho-chi-minh-city-b-women-06-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "09:00",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Rugby",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/rugby.html"
+    "titre": "24/06  福冈软银鹰 VS 欧力士野牛",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/npb-match-2185360/fukuoka-softbank-hawks-vs-orix-buffaloes-06-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "10:00",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Football américain",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/american-football.html"
+    "titre": "24/06  亚当·沃尔顿 VS 亚历杭德罗·达维多维奇·福基纳",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/atp-mallorca--spain-men-singles-match-2184825/adam-walton-vs-alejandro-davidovich-fokina-06-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "10:00",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Football Aus.",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/aussie-rules.html"
+    "titre": "24/06  维特·科普里瓦 VS R16P8",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/atp-mallorca--spain-men-singles-match-2184826/vit-kopriva-vs-r16p8-06-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "10:00",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Cricket",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/cricket.html"
+    "titre": "24/06  阿卜杜拉·谢尔巴耶 VS 格里戈尔·迪米特洛夫",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/atp-mallorca--spain-men-singles-match-2184828/abedallah-shelbayh-vs-grigor-dimitrov-06-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "10:00",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Hockey",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/hockey.html"
+    "titre": "24/06  杰克·德雷珀 VS 杰克·佩宁顿·若纳斯",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/atp-eastbourne--great-britain-men-singles-match-2185279/jack-draper-vs-jack-pinnington-jones-06-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "10:00",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Badminton",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/badminton.html"
+    "titre": "24/06  托比·萨穆埃尔 VS 蒂亚戈·阿古斯丁·蒂兰特",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/atp-eastbourne--great-britain-men-singles-match-2185280/toby-samuel-vs-thiago-agustin-tirante-06-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "10:00",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Volley-ball",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/volleyball.html"
+    "titre": "24/06  R16P7 VS 胡安·马努埃尔·塞伦多罗",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/atp-eastbourne--great-britain-men-singles-match-2185283/r16p7-vs-juan-manuel-cerundolo-06-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "10:00",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Lutte",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/fighting.html"
+    "titre": "24/06  泰勒·弗里茨 VS 詹·乔恩斯基",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/atp-eastbourne--great-britain-men-singles-match-2185287/taylor-fritz-vs-jan-choinski-06-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "10:00",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Vélo",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/cycling.html"
+    "titre": "24/06  Crocker L. vs Paro L.",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/fighting/def-match-2185722/crocker-l-vs-paro-l-06-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "11:00",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Handball",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/handball.html"
+    "titre": "24/06  保加利亚 VS 意大利",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/nations-league-match-2185384/bulgaria-vs-italy-06-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "11:00",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Baseball",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/baseball.html"
+    "titre": "24/06  中国 VS 土耳其",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/nations-league-match-2185385/china-vs-turkey-06-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "11:30",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "la politique de confidentialité",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/privacy-policy.html"
+    "titre": "24/06  塞尔维亚 VS 日本",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/nations-league-match-2185386/serbia-vs-japan-06-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "12:00",
+    "sport": "🏀 Basketball",
+    "compet": "Match International",
+    "titre": "24/06  婆罗洲地球 VS 雅加达明灯",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/basketball/indonesia-basketball-league-match-2185248/bumi-borneo-vs-pelita-jaya-esia-jakarta-06-2026.html"
+  },
+  {
+    "heure": "12:30",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Conditions de service",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/terms-of-service.html"
+    "titre": "24/06  india VS Chinese Taipei",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/badminton/thomas-cup-match-2186414/india-vs-chinese-taipei-06-2026.html"
+  },
+  {
+    "heure": "14:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  Mount Olive Marauder Duals (2026 Mount Olive Marauder Duals)",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/fighting/flowrestling-match-2186417/mount-olive-marauder-duals-2026-mount-olive-marauder-duals-06-2026.html"
+  },
+  {
+    "heure": "14:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  On The Range Show",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/others/pga-tour-live-travelers-championship-match-1978879/on-the-range-show-06-2026.html"
+  },
+  {
+    "heure": "14:30",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  阿根廷 VS 德国",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/nations-league-match-2185387/argentina-vs-germany-06-2026.html"
+  },
+  {
+    "heure": "14:30",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  乌克兰 VS 巴西",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/nations-league-match-2185388/ukraine-vs-brazil-06-2026.html"
+  },
+  {
+    "heure": "15:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  古巴 VS 美国",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/nations-league-match-2185389/cuba-vs-usa-06-2026.html"
+  },
+  {
+    "heure": "15:30",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  spanyol VS indonesia",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/football/vi-nation-u-17-futsal-tournament-2026-match-4416780/spanyol-vs-indonesia-06-2026.html"
+  },
+  {
+    "heure": "16:10",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  迈阿密马林鱼 VS 德州游骑兵",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2185789/miami-marlins-vs-texas-rangers-06-2026.html"
+  },
+  {
+    "heure": "17:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  Thailand VS denmark",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/badminton/thomas-cup-match-2186415/thailand-vs-denmark-06-2026.html"
+  },
+  {
+    "heure": "17:10",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  纽约大都会 VS 芝加哥小熊",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/baseball/major-league-baseball-match-2184835/new-york-mets-vs-chicago-cubs-06-2026.html"
+  },
+  {
+    "heure": "17:30",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  Portugal VS maroko",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/football/vi-nation-u-17-futsal-tournament-2026-match-4416781/portugal-vs-maroko-06-2026.html"
+  },
+  {
+    "heure": "17:30",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "24/06  英格兰(女) VS 西印度群岛(女)",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/cricket/womens-world-t20-match-2185840/england-women-vs-west-indies-women-06-2026.html"
+  },
+  {
+    "heure": "18:00",
+    "sport": "🏀 Basketball",
+    "compet": "Match International",
+    "titre": "24/06  巴塞罗那 VS 瓦伦西亚",
+    "urlPageMatch": "https://www.fctv33hd.mom/zh/basketball/liga-asociacion-de-clubs-de-baloncesto-match-2185735/winterthur-fc-barcelona-vs-pamesa-valencia-06-2026.html"
   }
 ]
