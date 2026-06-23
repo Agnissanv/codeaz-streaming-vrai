@@ -1,13 +1,13 @@
-name: Robot Code A-Z - Synchro Automatique
+name: Robot Code AZ - Synchro Automatique
 
 on:
   schedule:
-    # ⚽ MODE COUPE DU MONDE : Toutes les 30 min entre 15h et 05h59 GMT
+    # ⚽ MODE COUPE DU MONDE : Toutes les 30 min entre 15h00 et 05h59 GMT (Heure Abidjan)
     - cron: '*/30 15-23,0-5 * * *'
     
-    # 💤 MODE VEILLE : Toutes les 3 heures entre 06h00 et 14h59 GMT
+    # 💤 MODE VEILLE : Toutes les 3 heures entre 06h00 et 14h59 GMT pendant le calme
     - cron: '0 6,9,12 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Permet de lancer le robot manuellement en un clic sur GitHub pour tester
 
 jobs:
   scrape-and-update:
@@ -15,31 +15,24 @@ jobs:
 
     steps:
       - name: 1. Récupération du code source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: 2. Installation de Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: '18'
 
-      - name: 3. Installation de Google Chrome (Requis pour Puppeteer)
-        uses: browser-actions/setup-chrome@v1
-        id: setup-chrome
+      - name: 3. Installation des dépendances
+        run: npm install
 
-      - name: 4. Installation des dépendances
-        run: npm ci
-
-      - name: 5. Lancement du robot Code A-Z
+      - name: 4. Lancement du robot Code A Z
         env:
-          PUPPETEER_EXECUTABLE_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+          CRAWLBASE_TOKEN: ${{ secrets.CRAWLBASE_TOKEN }}
         run: node scraper.js
 
-      - name: 6. Sauvegarde et Push de matchs.json
+      - name: 5. Sauvegarde et Push de matchs.json
         run: |
-          git config --global user.name "Code A-Z Automation"
-          git config --global user.email "bot@codeaz.com"
-          git add .
-          git commit -m "🔄 [Bot] Actualisation automatique des matchs" || exit 0
-          git pull --rebase origin main 
-          git push
+          git config --global user.name "Robot Code A-Z"
+          git config --global user.email "robot@codeaz.com"
+          git add matchs.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Synchro Auto : Mise à jour des matchs" && git push)
