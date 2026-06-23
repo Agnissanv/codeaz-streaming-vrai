@@ -2,7 +2,11 @@ name: Robot Code A-Z - Synchro Automatique
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    # ⚽ MODE COUPE DU MONDE : Toutes les 30 min entre 15h et 05h59 GMT
+    - cron: '*/30 15-23,0-5 * * *'
+    
+    # 💤 MODE VEILLE : Toutes les 3 heures entre 06h00 et 14h59 GMT
+    - cron: '0 6,9,12 * * *'
   workflow_dispatch:
 
 jobs:
