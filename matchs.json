@@ -1,352 +1,128 @@
 [
   {
-    "heure": "03:30",
+    "heure": "LIVE",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Football",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/football.html"
+  },
+  {
+    "heure": "LIVE",
+    "sport": "🏀 Basketball",
+    "compet": "Match International",
+    "titre": "Basketball",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/basketball.html"
+  },
+  {
+    "heure": "LIVE",
+    "sport": "🎾 Tennis",
+    "compet": "Match International",
+    "titre": "Tennis",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/tennis.html"
+  },
+  {
+    "heure": "LIVE",
     "sport": "🏎️ Auto/Moto",
     "compet": "Match International",
-    "titre": "Sorotan ISTAF Sepak Takraw WC 2026: Regu",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/motorsport/sorotan-istaf-sepak-takraw-wc-2026-regu-match-2189521/sorotan-istaf-sepak-takraw-wc-2026-regu-07-2026.html"
+    "titre": "Sports Méca.",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/motorsport.html"
   },
   {
-    "heure": "06:45",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Rd 32",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/badminton/bwf-singapore-open-match-2189524/rd-32-07-2026.html"
+    "titre": "Autres",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/others.html"
   },
   {
-    "heure": "08:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Huerta A./Gavira (ESP) VS Nicolaidis/Carracher (AUS), Men Qualifications R1 on C2",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189890/huerta-a-gavira-esp-vs-nicolaidis-carracher-aus-men-qualifications-r1-on-c2-07-2026.html"
+    "titre": "Rugby",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/rugby.html"
   },
   {
-    "heure": "08:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Grimalt M./Grimalt E. (CHI) VS Flückiger/Kolb (SUI), Men Qualifications R1 on CC",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189891/grimalt-m-grimalt-e-chi-vs-flckiger-kolb-sui-men-qualifications-r1-on-cc-07-2026.html"
+    "titre": "Football américain",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/american-football.html"
   },
   {
-    "heure": "08:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Sepka/Sedlak (CZE) VS Bello Ja./Bello Jo. (ENG), Men Qualifications R1 on C4",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189892/sepka-sedlak-cze-vs-bello-ja-bello-jo-eng-men-qualifications-r1-on-c4-07-2026.html"
+    "titre": "Football Aus.",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/aussie-rules.html"
   },
   {
-    "heure": "08:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Potts/Pearse (AUS) VS Sagstetter J./Sagstetter B. (GER), Men Qualifications R1 on C3",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189893/potts-pearse-aus-vs-sagstetter-j-sagstetter-b-ger-men-qualifications-r1-on-c3-07-2026.html"
+    "titre": "Cricket",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/cricket.html"
   },
   {
-    "heure": "09:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Shaw/Partain (USA) VS Vercauteren/Van Langendonck (BEL), Men Qualifications R1 on C2",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189886/shaw-partain-usa-vs-vercauteren-van-langendonck-bel-men-qualifications-r1-on-c2-07-2026.html"
+    "titre": "Hockey",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/hockey.html"
   },
   {
-    "heure": "09:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Caldwell/Schalk (USA) VS Ehlers/Wüst (GER), Men Qualifications R1 on C3",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189887/caldwell-schalk-usa-vs-ehlers-wst-ger-men-qualifications-r1-on-c3-07-2026.html"
+    "titre": "Badminton",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/badminton.html"
   },
   {
-    "heure": "09:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Crabb Tr./Budinger (USA) VS Heidrich/Haussener (SUI), Men Qualifications R1 on CC",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189888/crabb-tr-budinger-usa-vs-heidrich-haussener-sui-men-qualifications-r1-on-cc-07-2026.html"
+    "titre": "Volley-ball",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/volleyball.html"
   },
   {
-    "heure": "09:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Alfieri/Ranghieri (ITA) VS Waller/Pristauz (AUT), Men Qualifications R1 on C4",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189889/alfieri-ranghieri-ita-vs-waller-pristauz-aut-men-qualifications-r1-on-c4-07-2026.html"
+    "titre": "Lutte",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/fighting.html"
   },
   {
-    "heure": "10:00",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "BAJC 2026 Mixed Team: Akhir",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/badminton/bajc-2026-mixed-team-akhir-match-2189526/bajc-2026-mixed-team-akhir-07-2026.html"
+    "titre": "Vélo",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/cycling.html"
   },
   {
-    "heure": "10:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Urango/Rice (USA) VS Pavelková K./Pavelková A. (CZE), Women Qualifications R1 on C2",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189885/urango-rice-usa-vs-pavelkov-k-pavelkov-a-cze-women-qualifications-r1-on-c2-07-2026.html"
+    "titre": "Handball",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/handball.html"
   },
   {
-    "heure": "10:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Hughes/Batenhorst (USA) VS Annique/Menia (SUI), Women Qualifications R1 on CC",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189894/hughes-batenhorst-usa-vs-annique-menia-sui-women-qualifications-r1-on-cc-07-2026.html"
+    "titre": "Baseball",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/baseball.html"
   },
   {
-    "heure": "10:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Koenig/Durish (USA) VS Kylie/Maixnerova (CZE), Women Qualifications R1 on C4",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189895/koenig-durish-usa-vs-kylie-maixnerova-cze-women-qualifications-r1-on-c4-07-2026.html"
+    "titre": "la politique de confidentialité",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/privacy-policy.html"
   },
   {
-    "heure": "10:55",
+    "heure": "LIVE",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Shiba/Reika (JPN) VS Bock/Lippmann (GER), Women Qualifications R1 on C3",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189896/shiba-reika-jpn-vs-bock-lippmann-ger-women-qualifications-r1-on-c3-07-2026.html"
-  },
-  {
-    "heure": "11:00",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "China VS Kyrgyzstan",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/avc-girls-u18-volleyball-championship-match-2189537/china-vs--kyrgyzstan-07-2026.html"
-  },
-  {
-    "heure": "11:30",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "汉密尔顿奥林匹克 VS 查尔斯顿市布鲁斯",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/football/australia-northern-new-south-wales-premier-league-match-4355822/newcastle-olympic-vs-charleston-city-blues-07-2026.html"
-  },
-  {
-    "heure": "11:30",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "匈牙利U18(女) VS 希腊U18(女)",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/european-championships-u18-women-match-2188524/hungary-u18-women-vs-greece-u18-w-07-2026.html"
-  },
-  {
-    "heure": "11:30",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "意大利U18(女) VS 冰岛U18(女)",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/european-championships-u18-women-match-2188525/italy-u18-women-vs-iceland-u18-w-07-2026.html"
-  },
-  {
-    "heure": "11:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Klinger D./Klinger R. (AUT) VS Anderson/Chacon (USA), Women Qualifications R1 on C4",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189881/klinger-d-klinger-r-aut-vs-anderson-chacon-usa-women-qualifications-r1-on-c4-07-2026.html"
-  },
-  {
-    "heure": "11:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Quiggle/Loreen (USA) VS Placette/Richard (FRA), Women Qualifications R1 on C3",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189882/quiggle-loreen-usa-vs-placette-richard-fra-women-qualifications-r1-on-c3-07-2026.html"
-  },
-  {
-    "heure": "11:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Flint/DeBerg (USA) VS Scampoli/Bianchi (ITA), Women Qualifications R1 on C2",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189883/flint-deberg-usa-vs-scampoli-bianchi-ita-women-qualifications-r1-on-c2-07-2026.html"
-  },
-  {
-    "heure": "11:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Van Winkle/Phillips (USA) VS Tina/Ēbere (LAT), Women Qualifications R1 on CC",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189884/van-winkle-phillips-usa-vs-tina-bere-lat-women-qualifications-r1-on-cc-07-2026.html"
-  },
-  {
-    "heure": "12:00",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "昌宁女足 VS 报恩尚武女足",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/football/korean-wk-league-match-4379846/gangjin-swans-women-vs-mungyeong-sangmu-wfc-07-2026.html"
-  },
-  {
-    "heure": "12:00",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "胡贝特·胡尔卡奇 VS 塞巴斯蒂安·欧弗纳",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-men-singles-match-2188343/hubert-hurkacz-vs-sebastian-ofner-07-2026.html"
-  },
-  {
-    "heure": "12:00",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "简森·布鲁克斯比 VS 伊格纳西奥·布塞",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-men-singles-match-2188345/jenson-brooksby-vs-ignacio-buse-07-2026.html"
-  },
-  {
-    "heure": "12:00",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "马顿·福乔维奇 VS 勒纳·田",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-men-singles-match-2188354/marton-fucsovics-vs-learner-tien-07-2026.html"
-  },
-  {
-    "heure": "12:00",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "权纯雨 VS 托米·保罗",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-men-singles-match-2188372/kwon-soon-woo-vs-tommy-paul-07-2026.html"
-  },
-  {
-    "heure": "12:00",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "阿纳斯塔西娅·加萨诺娃 VS 大坂直美",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-women-singles-match-2188392/anastasia-gasanova-vs-naomi-osaka-07-2026.html"
-  },
-  {
-    "heure": "12:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Plavins/Fokerots (LAT) VS [tbc], Men Pool B on C2",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189538/plavins-fokerots-lat-vs-tbc-men-pool-b-on-c2-07-2026.html"
-  },
-  {
-    "heure": "12:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Åhman/Hellvig (SWE) VS [tbc], Men Pool A on CC",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189539/hman-hellvig-swe-vs-tbc-men-pool-a-on-cc-07-2026.html"
-  },
-  {
-    "heure": "12:55",
-    "sport": "🥊 Combat",
-    "compet": "Match International",
-    "titre": "Hammarberg/Berger T. (AUT) VS Capogrosso N./Capogrosso T. (ARG), Men Pool A on C3",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189540/hammarberg-berger-t-aut-vs-capogrosso-n-capogrosso-t-arg-men-pool-a-on-c3-07-2026.html"
-  },
-  {
-    "heure": "12:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Andre/Renato (BRA) VS Cottafava/Dal Corso (ITA), Men Pool B on C4",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189541/andre-renato-bra-vs-cottafava-dal-corso-ita-men-pool-b-on-c4-07-2026.html"
-  },
-  {
-    "heure": "13:00",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "TEAM A VS TEAM B",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/volleyball-world-beach-pro-tour-match-2189542/team-a-vs-team-b-07-2026.html"
-  },
-  {
-    "heure": "13:40",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "亚历杭德罗·达维多维奇·福基纳 VS 法比安·马罗兹桑",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-men-singles-match-2188368/alejandro-davidovich-fokina-vs-fabian-marozsan-07-2026.html"
-  },
-  {
-    "heure": "13:40",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "达亚纳·亚斯特雷姆斯卡 VS 杰西卡·布扎斯·曼内罗",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-women-singles-match-2188381/dayana-yastremska-vs-jessica-bouzas-maneiro-07-2026.html"
-  },
-  {
-    "heure": "13:40",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "卡罗琳娜·穆霍娃 VS 张帅",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-women-singles-match-2188391/karolina-muchova-vs-zhang-shuai-07-2026.html"
-  },
-  {
-    "heure": "13:50",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "丹尼尔·梅里达·阿吉拉尔 VS 丹尼尔·梅德韦杰夫",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-men-singles-match-2188371/daniel-merida-aguilar-vs-daniil-medvedev-07-2026.html"
-  },
-  {
-    "heure": "13:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Daubas/Aye C. (FRA) VS [tbc], Men Pool E on C4",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189543/daubas-aye-c-fra-vs-tbc-men-pool-e-on-c4-07-2026.html"
-  },
-  {
-    "heure": "13:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Evandro/Arthur Lanci (BRA) VS Friedli/Jordan (SUI), Men Pool D on CC",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189544/evandro-arthur-lanci-bra-vs-friedli-jordan-sui-men-pool-d-on-cc-07-2026.html"
-  },
-  {
-    "heure": "13:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Perusic/Dzavoronok (CZE) VS Elazar/Cuzmiciov (ISR), Men Pool C on C3",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189545/perusic-dzavoronok-cze-vs-elazar-cuzmiciov-isr-men-pool-c-on-c3-07-2026.html"
-  },
-  {
-    "heure": "13:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Rotar/Gauthier-Rat (FRA) VS [tbc], Men Pool D on C2",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189546/rotar-gauthier-rat-fra-vs-tbc-men-pool-d-on-c2-07-2026.html"
-  },
-  {
-    "heure": "14:00",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "阿丽娜·萨巴伦卡 VS 麦卡特尼·凯斯勒",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-women-singles-match-2188402/aryna-sabalenka-vs-mccartney-kessler-07-2026.html"
-  },
-  {
-    "heure": "14:00",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "土耳其U18(女) VS 捷克U18(女)",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/european-championships-u18-women-match-2188528/turkey-u18-w-vs-czech-republic-u18-women-07-2026.html"
-  },
-  {
-    "heure": "14:00",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Thailand VS Mongolia",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/avc-girls-u18-volleyball-championship-match-2189547/thailand-vs--mongolia-07-2026.html"
-  },
-  {
-    "heure": "14:00",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Chinese Taipei VS Vietnam",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/avc-girls-u18-volleyball-championship-match-2189548/chinese-taipei-vs--vietnam-07-2026.html"
-  },
-  {
-    "heure": "14:20",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "卡特琳娜·斯尼亚科娃 VS 尼古拉·巴通科娃",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-women-singles-match-2188385/katerina-siniakova-vs-nikola-bartunkova-07-2026.html"
-  },
-  {
-    "heure": "14:30",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "扬尼克·辛纳 VS 努诺·博尔赫斯",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-men-singles-match-2188346/jannik-sinner-vs-nuno-borges-07-2026.html"
-  },
-  {
-    "heure": "14:50",
-    "sport": "🎾 Tennis",
-    "compet": "Match International",
-    "titre": "望月慎太郎 VS 伊桑·奎因",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/tennis/wimbledon-men-singles-match-2188344/shintaro-mochizuki-vs-ethan-quinn-07-2026.html"
-  },
-  {
-    "heure": "14:55",
-    "sport": "⚽ Football",
-    "compet": "Match International",
-    "titre": "Boermans/Brouwer (NED) VS [tbc], Men Pool E on C4",
-    "urlPageMatch": "https://www.fctv33hd.mom/zh/volleyball/gstaad-sui-match-2189549/boermans-brouwer-ned-vs-tbc-men-pool-e-on-c4-07-2026.html"
+    "titre": "Conditions de service",
+    "urlPageMatch": "https://www.fctv33hd.mom/fr/terms-of-service.html"
   }
 ]
