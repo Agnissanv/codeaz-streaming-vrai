@@ -1,128 +1,345 @@
 [
   {
-    "heure": "LIVE",
+    "heure": "11:00",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Football",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/football.html"
+    "titre": "TEAM A VS TEAM B",
+    "urlPageMatch": "https://www.fctv33hd.mom/volleyball/volleyball-world-beach-pro-tour-match-2189542/team-a-vs-team-b-07-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "🏀 Basketball",
+    "heure": "14:15",
+    "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Basketball",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/basketball.html"
+    "titre": "Rd16",
+    "urlPageMatch": "https://www.fctv33hd.mom/badminton/bwf-singapore-open-match-2189527/rd16-07-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "14:35",
     "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Tennis",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/tennis.html"
+    "titre": "Shintaro Mochizuki VS Ethan Quinn",
+    "urlPageMatch": "https://www.fctv33hd.mom/tennis/wimbledon-men-singles-match-2188344/shintaro-mochizuki-vs-ethan-quinn-07-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "15:15",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Finland VS Denmark",
+    "urlPageMatch": "https://www.fctv33hd.mom/volleyball/european-league-match-2188530/finland-vs-denmark-07-2026.html"
+  },
+  {
+    "heure": "15:35",
+    "sport": "🎾 Tennis",
+    "compet": "Match International",
+    "titre": "Barbora Krejcikova VS Mirra Andreeva",
+    "urlPageMatch": "https://www.fctv33hd.mom/tennis/wimbledon-women-singles-match-2188405/barbora-krejcikova-vs-mirra-andreeva-07-2026.html"
+  },
+  {
+    "heure": "16:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "58 England 0 1 VS Democratic Rep Congo HT 0-1",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/fifa-world-cup-match-4374265/england-vs-democratic-republic-of-the-congo-07-2026.html"
+  },
+  {
+    "heure": "16:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "62 HJK Helsinki 1 0 VS Ilves Tampere HT 1-0",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/finland-suomen-cup-match-4414341/hjk-helsinki-vs-ilves-tampere-07-2026.html"
+  },
+  {
+    "heure": "16:00",
     "sport": "🏎️ Auto/Moto",
     "compet": "Match International",
-    "titre": "Sports Méca.",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/motorsport.html"
+    "titre": "Motor: Cub Prix 2026 Rnd 3",
+    "urlPageMatch": "https://www.fctv33hd.mom/motorsport/motor-cub-prix-2026-rnd-3-match-2189520/motor-cub-prix-2026-rnd-3-07-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "16:20",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Autres",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/others.html"
+    "titre": "Brandon Nakashima VS Jan-Lennard Struff",
+    "urlPageMatch": "https://www.fctv33hd.mom/tennis/wimbledon-men-singles-match-2188365/brandon-nakashima-vs-jan-lennard-struff-07-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "16:30",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Rugby",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/rugby.html"
+    "titre": "England VS India",
+    "urlPageMatch": "https://www.fctv33hd.mom/cricket/t20-series-england-vs-india-match-2188983/england-vs-india-07-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "16:35",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Football américain",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/american-football.html"
+    "titre": "Baltimore Orioles VS Chicago White Sox",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188930/baltimore-orioles-vs-chicago-white-sox-07-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "16:40",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Football Aus.",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/aussie-rules.html"
+    "titre": "Belinda Bencic VS Wang Xinyu",
+    "urlPageMatch": "https://www.fctv33hd.mom/tennis/wimbledon-women-singles-match-2188378/belinda-bencic-vs-wang-xinyu-07-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "16:45",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Cricket",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/cricket.html"
+    "titre": "Felix Auger-Aliassime VS Dino Prizmic",
+    "urlPageMatch": "https://www.fctv33hd.mom/tennis/wimbledon-men-singles-match-2188364/felix-auger-aliassime-vs-dino-prizmic-07-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "16:45",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Hockey",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/hockey.html"
+    "titre": "Ekaterina Alexandrova VS Lanlana Tararudee",
+    "urlPageMatch": "https://www.fctv33hd.mom/tennis/wimbledon-women-singles-match-2188388/ekaterina-alexandrova-vs-lanlana-tararudee-07-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "16:55",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "Badminton",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/badminton.html"
+    "titre": "Harri Heliovaara / Henry Patten VS Terence Atmane / Luca Sanchez",
+    "urlPageMatch": "https://www.fctv33hd.mom/tennis/wimbledon-men-doubles-match-2188427/heliovaara-h-patten-h-vs-atmane-t-sanchez-l-07-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "17:00",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Volley-ball",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/volleyball.html"
+    "titre": "21 Denmark U19 0 0 VS Spain U19",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/uefa-european-u19-football-championship-match-4416982/denmark-u19-vs-spain-u19-07-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "17:00",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Lutte",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/fighting.html"
+    "titre": "Finland U18 W VS Netherlands U18 Women",
+    "urlPageMatch": "https://www.fctv33hd.mom/volleyball/european-championships-u18-women-match-2189011/finland-u18-w-vs-netherlands-u18-women-07-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "17:00",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Vélo",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/cycling.html"
+    "titre": "Poland U18 W VS Latvia U18 W",
+    "urlPageMatch": "https://www.fctv33hd.mom/volleyball/european-championships-u18-women-match-2189012/poland-u18-w-vs-latvia-u18-w-07-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "17:10",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Handball",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/handball.html"
+    "titre": "10 Forge FC 0 1 VS Vancouver FC",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/canadian-premier-league-match-4352737/forge-fc-vs-vancouver-fc-07-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "17:10",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Baseball",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/baseball.html"
+    "titre": "Cleveland Guardians VS Texas Rangers",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188931/cleveland-guardians-vs-texas-rangers-07-2026.html"
   },
   {
-    "heure": "LIVE",
-    "sport": "⚽ Football",
+    "heure": "17:25",
+    "sport": "🎾 Tennis",
     "compet": "Match International",
-    "titre": "la politique de confidentialité",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/privacy-policy.html"
+    "titre": "Stefanos Tsitsipas VS Novak Djokovic",
+    "urlPageMatch": "https://www.fctv33hd.mom/tennis/wimbledon-men-singles-match-2188367/stefanos-tsitsipas-vs-novak-djokovic-07-2026.html"
   },
   {
-    "heure": "LIVE",
+    "heure": "17:30",
+    "sport": "🎾 Tennis",
+    "compet": "Match International",
+    "titre": "Rafael Jodar VS Pablo Carreño Busta",
+    "urlPageMatch": "https://www.fctv33hd.mom/tennis/wimbledon-men-singles-match-2188347/rafael-jodar-vs-pablo-carreo-busta-07-2026.html"
+  },
+  {
+    "heure": "17:35",
     "sport": "⚽ Football",
     "compet": "Match International",
-    "titre": "Conditions de service",
-    "urlPageMatch": "https://www.fctv33hd.mom/fr/terms-of-service.html"
+    "titre": "Boston Red Sox VS Washington Nationals",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188933/boston-red-sox-vs-washington-nationals-07-2026.html"
+  },
+  {
+    "heure": "17:35",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "New York Yankees VS Detroit Tigers",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188934/new-york-yankees-vs-detroit-tigers-07-2026.html"
+  },
+  {
+    "heure": "18:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Slovenia Women VS Slovakia Women",
+    "urlPageMatch": "https://www.fctv33hd.mom/volleyball/european-league-women-match-2189010/slovenia-women-vs-slovakia-women-07-2026.html"
+  },
+  {
+    "heure": "18:20",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Chicago Cubs VS San Diego Padres",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188935/chicago-cubs-vs-san-diego-padres-07-2026.html"
+  },
+  {
+    "heure": "19:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Wales U19 VS Germany U19",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/uefa-european-u19-football-championship-match-4416985/wales-u19-vs-germany-u19-07-2026.html"
+  },
+  {
+    "heure": "19:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Trout vs Bonner: Press Conference",
+    "urlPageMatch": "https://www.fctv33hd.mom/fighting/bkfc-liberty-brawl-match-2189569/trout-vs-bonner-press-conference-07-2026.html"
+  },
+  {
+    "heure": "19:07",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Toronto Blue Jays VS New York Mets",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188936/toronto-blue-jays-vs-new-york-mets-07-2026.html"
+  },
+  {
+    "heure": "19:30",
+    "sport": "🏎️ Auto/Moto",
+    "compet": "Match International",
+    "titre": "mya vs mas",
+    "urlPageMatch": "https://www.fctv33hd.mom/motorsport/istaf-sepak-takraw-wc-2026-match-2189522/mya-vs-mas-07-2026.html"
+  },
+  {
+    "heure": "19:30",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Italy U22 VS France U22",
+    "urlPageMatch": "https://www.fctv33hd.mom/volleyball/european-championship-u22-match-2189013/italy-u22-vs-france-u22-07-2026.html"
+  },
+  {
+    "heure": "20:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "HFX Wanderers FC VS Atletico Ottawa",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/canadian-premier-league-match-4352791/hfx-wanderers-fc-vs-atletico-ottawa-07-2026.html"
+  },
+  {
+    "heure": "20:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Belgium VS Senegal",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/fifa-world-cup-match-4374264/belgium-vs-senegal-07-2026.html"
+  },
+  {
+    "heure": "22:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Liga Dep. Universitaria Quito VS Orense SC",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/ligapro-serie-a-match-4348966/liga-dep-universitaria-quito-vs-orense-sc-07-2026.html"
+  },
+  {
+    "heure": "22:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Deportes Limache VS Coquimbo Unido",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/chilean-cup-match-4410486/deportes-limache-vs-coquimbo-unido-07-2026.html"
+  },
+  {
+    "heure": "22:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Sorotan BWF Terbuka US 2026: Akhir",
+    "urlPageMatch": "https://www.fctv33hd.mom/badminton/sorotan-bwf-terbuka-us-2026-akhir-match-2189528/sorotan-bwf-terbuka-us-2026-akhir-07-2026.html"
+  },
+  {
+    "heure": "22:40",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Philadelphia Phillies VS Pittsburgh Pirates",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188941/philadelphia-phillies-vs-pittsburgh-pirates-07-2026.html"
+  },
+  {
+    "heure": "23:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Chattanooga Red Wolves VS Westchester SC",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/usl-league-one-match-4367376/chattanooga-red-wolves-vs-westchester-sc-07-2026.html"
+  },
+  {
+    "heure": "23:15",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Atlanta Braves VS St.Louis Cardinals",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188950/atlanta-braves-vs-stlouis-cardinals-07-2026.html"
+  },
+  {
+    "heure": "23:15",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Rd16",
+    "urlPageMatch": "https://www.fctv33hd.mom/badminton/bwf-singapore-open-match-2189529/rd16-07-2026.html"
+  },
+  {
+    "heure": "23:40",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "Kansas City Royals VS Tampa Bay Rays",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188952/kansas-city-royals-vs-tampa-bay-rays-07-2026.html"
+  },
+  {
+    "heure": "00:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "02/07  USA VS Bosnia-Herzegovina",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/fifa-world-cup-match-4374263/usa-vs-bosnia-and-herzegovina-07-2026.html"
+  },
+  {
+    "heure": "00:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "02/07  BAJC 2026 Mixed Team: Akhir",
+    "urlPageMatch": "https://www.fctv33hd.mom/badminton/bajc-2026-mixed-team-akhir-match-2190000/bajc-2026-mixed-team-akhir-07-2026.html"
+  },
+  {
+    "heure": "00:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "02/07  KUSF 배구(남) 클럽챔피언십 2026 남부지역 예선",
+    "urlPageMatch": "https://www.fctv33hd.mom/volleyball/def-match-2190001/kusf---2026-07-2026.html"
+  },
+  {
+    "heure": "00:10",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "02/07  Houston Astros VS Minnesota Twins",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188960/houston-astros-vs-minnesota-twins-07-2026.html"
+  },
+  {
+    "heure": "00:10",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "02/07  Milwaukee Brewers VS Cincinnati Reds",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188961/milwaukee-brewers-vs-cincinnati-reds-07-2026.html"
+  },
+  {
+    "heure": "00:30",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "02/07  Universidad de Chile VS Union La Calera",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/chilean-cup-match-4410410/universidad-de-chile-vs-union-la-calera-07-2026.html"
+  },
+  {
+    "heure": "00:40",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "02/07  Colorado Rockies VS Miami Marlins",
+    "urlPageMatch": "https://www.fctv33hd.mom/baseball/major-league-baseball-match-2188964/colorado-rockies-vs-miami-marlins-07-2026.html"
+  },
+  {
+    "heure": "01:00",
+    "sport": "⚽ Football",
+    "compet": "Match International",
+    "titre": "02/07  Spokane Velocity VS Forward Madison FC",
+    "urlPageMatch": "https://www.fctv33hd.mom/football/usl-league-one-match-4367337/spokane-velocity-vs-forward-madison-fc-07-2026.html"
   }
 ]
